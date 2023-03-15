@@ -1,6 +1,6 @@
 import './css/styles.css';
 import debounce from 'lodash.debounce';
-import { fetchCountry } from './fetchCountries';
+import {fetchCountry} from './fetchCountries';
 
 const DEBOUNCE_DELAY = 300;
 
@@ -12,8 +12,10 @@ const refs = {
 
 const onsearchCounry = debounce(event => {
     const searchedQuery = event.target.value.trim();
-    console.log(searchedQuery);
-
+    fetch(searchedQuery)
+    .then(data) => {
+    cardEl.innerHTML = 
+    }
 }, DEBOUNCE_DELAY);
 
 

@@ -2,20 +2,20 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://LifeLong-LeArneR17.github.io/hw-10",
+  "homepage": "https://github.com/LifeLong-LeArneR17/hw-10/settings/pages",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /hw-10/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://LifeLong-LeArneR17.github.io/hw-10"
+    "url": "git+https://github.com/LifeLong-LeArneR17/hw-10/settings/pages"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://LifeLong-LeArneR17.github.io/hw-10"
+    "url": "https://github.com/LifeLong-LeArneR17/hw-08/settings/pages"
   },
   "dependencies": {
     "lodash.debounce": "^4.0.8",
